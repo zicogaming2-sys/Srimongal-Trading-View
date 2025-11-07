@@ -1,21 +1,51 @@
 # 🪙 Srimongal Trading View
 
-**Srimongal Trading View** is a clean and powerful crypto trading chart platform that displays live **Bitcoin (BTC/USDT)** and other market charts using TradingView.
+Srimongal Trading View হলো একটি পরিষ্কার এবং শক্তিশালী ক্রিপ্টো ট্রেডিং চার্ট প্ল্যাটফর্ম। এটি TradingView উইজেট ব্যবহার করে লাইভ **Bitcoin (BTC/USDT)** সহ অন্যান্য মার্কেটের চার্ট প্রদর্শন করে। 
+
+এই প্রজেক্টটি স্থানীয়ভাবে (locally) চার্টটি দেখার জন্য তৈরি করা হয়েছে।
 
 ---
 
-## ✨ Features
-- Fullscreen crypto chart
-- Live market updates
-- Dark, modern UI
-- Works directly in browser (no login needed)
-- No external branding
+## ✨ Features (বৈশিষ্ট্য)
+* **Fullscreen Crypto Chart:** সম্পূর্ণ স্ক্রিন জুড়ে চার্ট দেখার সুবিধা।
+* **Live Market Updates:** রিয়েল-টাইম মার্কেট ডেটা আপডেট।
+* **Dark, Modern UI:** চোখের জন্য আরামদায়ক ডার্ক থিম।
+* **Browser Ready:** সরাসরি ব্রাউজারে কাজ করে (কোনো লগইন প্রয়োজন নেই)।
+* **Clean Code:** কোনো অপ্রয়োজনীয় এক্সটার্নাল ব্র্যান্ডিং নেই।
 
 ---
 
-## 💻 Run Locally
+## 💻 Run Locally (চালানোর পদ্ধতি)
 
-1. **Download / Clone** this repository:
-   ```bash
-   git clone https://github.com/<your-username>/Srimongal-Trading-View.git
-   cd Srimongal-Trading-View
+এই চার্টটি আপনার নিজের কম্পিউটারে দেখার জন্য নিচের ধাপগুলো অনুসরণ করুন।
+
+1. **Download / Clone** এই রিপোজিটরিটি ডাউনলোড করুন:
+    ```bash
+    git clone [https://github.com/](https://github.com/)<your-username>/Srimongal-Trading-View.git
+    cd Srimongal-Trading-View
+    ```
+    *(নোট: `<your-username>` এর জায়গায় আপনার GitHub ইউজারনেম দিন।)*
+    
+2. **Open the Chart:** ডাউনলোড সম্পন্ন হওয়ার পর, ফাইল এক্সপ্লোরার বা ফাইন্ডারে গিয়ে `Srimongal-Trading-View` ফোল্ডারটি ওপেন করুন। এরপর **`index.html`** ফাইলটির উপর ডাবল-ক্লিক করুন।
+
+আপনার ডিফল্ট ওয়েব ব্রাউজারে লাইভ চার্টটি খুলে যাবে।
+
+---
+
+## ⚙️ Configuration (সেটিংস পরিবর্তন)
+
+আপনি যদি চার্টের ডিফল্ট সেটিংস পরিবর্তন করতে চান (যেমন: অন্য কোনো কয়েনের চার্ট, অন্য ইন্টারভ্যাল, ইত্যাদি), তবে **`index.html`** ফাইলটি আপনার কোড এডিটরে (যেমন VS Code) ওপেন করুন এবং `<script type="text/javascript">` ট্যাগের ভেতরের অংশটি পরিবর্তন করুন:
+
+| সেটিংস | পরিবর্তন করতে পারেন | বর্তমান মান |
+| :--- | :--- | :--- |
+| **Symbol (কয়েন)** | চার্টের জন্য নির্দিষ্ট কয়েন | `"BINANCE:BTCUSDT"` |
+| **Interval (ইন্টারভ্যাল)** | সময়ের ফ্রিকোয়েন্সি (যেমন: 1, 5, 60, 1D) | `"60"` (১ ঘণ্টা) |
+| **Theme (থিম)** | চার্টের থিম: `dark` বা `light` | `"dark"` |
+
+---
+
+## 🤝 Contribution (সহায়তা)
+
+এই প্রজেক্টটি আরও উন্নত করতে আপনি যেকোনো সাহায্য বা অবদান রাখতে পারেন।
+
+---

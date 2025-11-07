@@ -1,19 +1,21 @@
-# Srimongal Trading View
+# 🪙 Srimongal Trading View
 
-A fullscreen crypto trading chart website with live market updates and smooth UI.  
-Built for professional traders and investors.
+**Srimongal Trading View** is a clean and powerful crypto trading chart platform that displays live **Bitcoin (BTC/USDT)** and other market charts using TradingView.
 
 ---
 
-## Run Locally
-1. Open `index.html` in your browser.
+## ✨ Features
+- Fullscreen crypto chart
+- Live market updates
+- Dark, modern UI
+- Works directly in browser (no login needed)
+- No external branding
 
-## Deploy to GitHub Pages
-1. Push repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Branch**, select `main` and **Folder: root**.
-4. Save — your live website link will appear automatically.
+---
 
-## Notes
-- Default symbol = BTC/USDT.
-- Fully responsive, modern color theme, and no external branding.
+## 💻 Run Locally
+
+1. **Download / Clone** this repository:
+   ```bash
+   git clone https://github.com/<your-username>/Srimongal-Trading-View.git
+   cd Srimongal-Trading-View
